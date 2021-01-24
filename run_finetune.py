@@ -20,7 +20,7 @@ language_data = {
                                            "offensive_label": "OFF"},
 
                 "engee": {"data": "text", "label": "label", "train_data_path": "./data/engee_train.csv",
-                                           "eval_data_path": "../data/engee_val.csv",
+                                           "eval_data_path": "./data/engee_val.csv",
 
                                            "offensive_label": "OFF"}
 
