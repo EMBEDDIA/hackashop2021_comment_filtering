@@ -27,7 +27,7 @@ language_data = {
                 }
 
 
-bert = ['bert-base-multilingual-cased','EMBEDDIA/crosloengual-bert','EMBEDDIA/finest-bert']
+bert = ['bert-base-multilingual-uncased','EMBEDDIA/crosloengual-bert','EMBEDDIA/finest-bert']
 
 
 if __name__ == "__main__":

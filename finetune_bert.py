@@ -1,12 +1,3 @@
-# torch
-# transformer
-# tensorflow
-# keras
-# pandas
-# sklearn
-# matplotlib
-
-
 import torch
 
 from torch.utils.data import TensorDataset, RandomSampler, DataLoader,SequentialSampler

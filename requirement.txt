@@ -1,0 +1,9 @@
+pandas
+sklearn
+matplotlib
+numpy 
+torch
+transformer
+tensorflow
+keras
+   
