@@ -17,8 +17,8 @@ language_data = {
                            "eval_data_path": "./data/all_val.csv",
                            "offensive_label": "OFF"},
 
-                "cro": {"data": "text", "label": "label", "train_data_path": "./data/cro_train.csv",
-                                           "eval_data_path": "./data/cro_val.csv",
+                "cro": {"data": "text", "label": "label", "train_data_path": "./data/cro_rule_train.csv",
+                                           "eval_data_path": "./data/cro_rule_val.csv",
                                            "offensive_label": "OFF"}, #For rule base classifier it is [1:8]
                 "cse": {"data": "text", "label": "label", "train_data_path": "./data/cse_train.csv",
                                            "eval_data_path": "./data/cse_val.csv",
