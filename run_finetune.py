@@ -7,6 +7,7 @@ import subprocess
 
 base_out_dirs ={
                 "all":"./models/all/",
+                "cro":"./models/cro/",
                "cse":"./models/cse/",
                "engee":"./models/engee/"
                 }
@@ -15,6 +16,10 @@ language_data = {
                 "all": {"data": "text", "label": "label", "train_data_path": "./data/all_train.csv",
                            "eval_data_path": "./data/all_val.csv",
                            "offensive_label": "OFF"},
+
+                "cro": {"data": "text", "label": "label", "train_data_path": "./data/cro_train.csv",
+                                           "eval_data_path": "./data/cro_val.csv",
+                                           "offensive_label": "OFF"}, #For rule base classifier it is [1:8]
                 "cse": {"data": "text", "label": "label", "train_data_path": "./data/cse_train.csv",
                                            "eval_data_path": "./data/cse_val.csv",
                                            "offensive_label": "OFF"},
